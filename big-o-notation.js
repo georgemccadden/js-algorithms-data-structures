@@ -21,7 +21,7 @@ function keepAddingUpTo(n) {
 
 // The question that is posed now is which function is "better" or more efficient? (faster, less memory-intensive, readability, i.e.)
 
-// If I want to be concerned with speed, one way to track it is using a timer :
+// If I want to be concerned with speed, some people track it is using a timer :
 
 // This method tells me the number of milliseconds since the window was opened, the function is run, and then the timer checks the milliseconds again and to give me two different numbers to be subtracted and divide it so that it gives me seconds rather than milliseconds.
 
@@ -30,3 +30,8 @@ addUpTo(1000000000);
 let timer2 = performance.now();
 
 console.log(`The amount of time elapsed : ${(timer2 - timer1) / 1000} seconds.`)
+
+// The problem with time is it is not always reliable. Different machines will record different, even the same machine will record different times. Tracking time won't always be precise enough the faster the algorithm is, and we always want a fast and efficient one.
+
+// Big-O helps us talk about and compare code "generally" by counting the number of simple operations that the computer has to perform.
+
