@@ -35,3 +35,10 @@ console.log(`The amount of time elapsed : ${(timer2 - timer1) / 1000} seconds.`)
 
 // Big-O helps us talk about and compare code "generally" by counting the number of simple operations that the computer has to perform.
 
+function countUpAndDown(n) {
+  console.log("Time to go up!");
+
+  for (let i = 0; i < n; i++) {
+    console.log(i);
+  }
+}
