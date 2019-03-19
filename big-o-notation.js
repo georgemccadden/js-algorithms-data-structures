@@ -35,3 +35,22 @@ console.log(`The amount of time elapsed : ${(timer2 - timer1) / 1000} seconds.`)
 
 // Big-O helps us talk about and compare code "generally" by counting the number of simple operations that the computer has to perform.
 
+function countUpAndDown(n) {
+  console.log("Time to go up!");
+
+  for (let i = 0; i < n; i++) {
+    console.log(i);
+  }
+}
+
+// The above function countUpAndDown() has a Big-O of O(n).
+
+function noahsArk(n) {
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      console.log(i, j);
+    }
+  }
+}
+
+// The above function noahsArk() has a Big-0 of O(n^2) because of the nested loop.
