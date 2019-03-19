@@ -45,7 +45,7 @@ function countUpAndDown(n) {
 
 // The above function countUpAndDown() has a Big-O of O(n).
 
-function noahsArk(n) {
+function printPossiblePairs(n) {
   for (let i = 0; i < n; i++) {
     for (let j = 0; j < n; j++) {
       console.log(i, j);
@@ -53,4 +53,4 @@ function noahsArk(n) {
   }
 }
 
-// The above function noahsArk() has a Big-0 of O(n^2) because of the nested loop.
+// The above function printPossiblePairs() has a Big-0 of O(n^2) because of the nested loop.
