@@ -54,3 +54,7 @@ function printPossiblePairs(n) {
 }
 
 // The above function printPossiblePairs() has a Big-0 of O(n^2) because of the nested loop.
+
+// Big-O "Need to Know(s)"
+// Arithmetic operations, variable assignments, or accessing elements in an array (by index) or object(by key) is always constant.
+// In a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop.
