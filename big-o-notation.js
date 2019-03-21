@@ -86,3 +86,5 @@ function doubleTheTotal(arr) {
   }
   return newArr;
 }
+
+// This above example is O(n) because the space that is taken up is directly proportional to the input.
