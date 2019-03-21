@@ -58,3 +58,11 @@ function printPossiblePairs(n) {
 // Big-O "Need to Know(s)"
 // Arithmetic operations, variable assignments, or accessing elements in an array (by index) or object(by key) is always constant.
 // In a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop.
+
+// ** SPACE COMPLEXITY **
+
+// I keep hearing the term "auxiliary space complexity" rather than just space complexity. This term referes to space required by an algorithm (not including space taken up by the inputs).
+
+// Most primitives (booleans, numbers, undefined, null) are constant space.
+// Strings require O(n) space because n is the string's length.
+// Reference types are usually O(n) because n is the length for arrays or the number of keys for an object.
