@@ -2,7 +2,7 @@
 
 // It's important to have a precise vocabulary when talking about code performance. When discussing with others about the trade-offs between different approaches to solving problems with code, Big-O proves most useful (debugging, i.e.) 
 
-// For example : Write a function that calculates the sum of all numbers from 1 up to and including n.
+// For example : I'll write a function that calculates the sum of all numbers from 1 up to and including n.
 
 function addUpTo(n) {
   let total = 0;
@@ -31,7 +31,7 @@ let timer2 = performance.now();
 
 console.log(`The amount of time elapsed : ${(timer2 - timer1) / 1000} seconds.`)
 
-// The problem with time is it is not always reliable. Different machines will record different, even the same machine will record different times. Tracking time won't always be precise enough the faster the algorithm is, and we always want a fast and efficient one.
+// The problem with time is it is not always reliable. Different machines will record different data, even the same machine will record different times. Tracking time won't always be precise enough the faster the algorithm is, and we always want a fast and efficient one.
 
 // Big-O helps us talk about and compare code "generally" by counting the number of simple operations that the computer has to perform.
 
@@ -66,3 +66,23 @@ function printPossiblePairs(n) {
 // Most primitives (booleans, numbers, undefined, null) are constant space.
 // Strings require O(n) space because n is the string's length.
 // Reference types are usually O(n) because n is the length for arrays or the number of keys for an object.
+
+function addingTheStrings(arr) {
+  let totalStrings = 0;
+  
+  for (let i = 0; i < arr.length) {
+    total += totalStrings;
+  }
+  return totalStrings;
+}
+
+// This above example is O(1) constant space. We have one variable (totalStrings) and although we're adding to it over time, the space has already been accounted for.
+
+function doubleTheTotal(arr) {
+  let newArr = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    newArr.push(2 * arr[i]);
+  }
+  return newArr;
+}
