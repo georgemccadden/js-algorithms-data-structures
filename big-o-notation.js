@@ -70,7 +70,7 @@ function printPossiblePairs(n) {
 function addingTheStrings(arr) {
   let totalStrings = 0;
   
-  for (let i = 0; i < arr.length) {
+  for (let i = 0; i < arr.length; i++) {
     total += totalStrings;
   }
   return totalStrings;
