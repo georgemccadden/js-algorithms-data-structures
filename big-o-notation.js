@@ -21,7 +21,7 @@ function keepAddingUpTo(n) {
 
 // The question that is posed now is which function is "better" or more efficient? (faster, less memory-intensive, readability, i.e.)
 
-// If I want to be concerned with speed, some people track it is using a timer :
+// If I want to be concerned with speed, some people track it using a timer :
 
 // This method tells me the number of milliseconds since the window was opened, the function is run, and then the timer checks the milliseconds again and to give me two different numbers to be subtracted and divide it so that it gives me seconds rather than milliseconds.
 
