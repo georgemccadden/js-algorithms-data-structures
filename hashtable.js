@@ -14,6 +14,7 @@ function hash(key, arrayLength) {
 
 // The above hash function needs to be refined because it only hashes strings, it's not constant time - mainly because it depends on the length of the string, and it could be more random.
 
+
 function fastHash(key, arrLen) {
   let total = 0,
       weird_prime = 31,
