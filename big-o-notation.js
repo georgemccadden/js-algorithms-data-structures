@@ -87,4 +87,8 @@ function doubleTheTotal(arr) {
   return newArr;
 }
 
+<<<<<<< HEAD
+// This function above is O(n) space. Although line 82 does mean that everytime this function is used a new array is being made, it is neglegable in comparison to the amount of space is taken up by line 85 which shows that array growing in size. Its size grows directly proportionate to the input, (arr).
+=======
 // This above example is O(n) because the space that is taken up is directly proportional to the input.
+>>>>>>> d6a4fef6159835cd5f7ae7e8ef11587cde3eddae
