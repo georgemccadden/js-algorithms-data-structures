@@ -70,7 +70,7 @@ function printPossiblePairs(n) {
 function addingTheStrings(arr) {
   let totalStrings = 0;
   
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length) {
     total += totalStrings;
   }
   return totalStrings;
@@ -87,8 +87,8 @@ function doubleTheTotal(arr) {
   return newArr;
 }
 
-<<<<<<< HEAD
 // This function above is O(n) space. Although line 82 does mean that everytime this function is used a new array is being made, it is neglegable in comparison to the amount of space is taken up by line 85 which shows that array growing in size. Its size grows directly proportionate to the input, (arr).
-=======
-// This above example is O(n) because the space that is taken up is directly proportional to the input.
->>>>>>> d6a4fef6159835cd5f7ae7e8ef11587cde3eddae
+
+// ** Logarithms **
+
+// Math definition _ the logarithm of a number roughly measures the number of times you can divide that number by 2 before you get a value that is less than or equal to one.
