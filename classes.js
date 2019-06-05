@@ -14,7 +14,7 @@ class Student {
     this.tardies += 1;
 
     if(this.tardies >= 10) {
-      return `${this.firstName} ${this.lastName}, you are expelled!`
+      return `${this.firstName} ${this.lastName}, you are expelled!`;
     }
   }
 }
