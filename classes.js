@@ -6,6 +6,9 @@ class Student {
     this.lastName = lastName;
     this.grade = grade;
   }
+  fullName() {
+    return `This student's full name is ${this.firstName} ${this.lastName}`;
+  }
 }
 
 // With classes, the method to create new objects MUST be called "constructor".
