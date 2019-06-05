@@ -5,9 +5,17 @@ class Student {
     this.firstName = firstName;
     this.lastName = lastName;
     this.grade = grade;
+    this.tardies = 0;
   }
   fullName() {
     return `This student's full name is ${this.firstName} ${this.lastName}`;
+  }
+  markLate() {
+    this.tardies += 1;
+
+    if(this.tardies >= 10) {
+      return `${this.firstName} ${this.lastName}, you are expelled!`;
+    }
   }
 }
 
