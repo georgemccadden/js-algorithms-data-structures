@@ -34,3 +34,8 @@ function maxSubarraySum(arr, num) {
   }
   return maxSum;
 }
+
+// * BIG O *
+
+// Time complexity = O(n)
+// Space complexity = O(1)
