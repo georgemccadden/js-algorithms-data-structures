@@ -9,7 +9,7 @@ function search(array, val) {
     let middle = Math.floor((min + max) / 2);
     let currElement = array[middle];
 
-    if (arr[middle] < val) {
+    if (array[middle] < val) {
       min = middle + 1;
     }
     else if (array[middle] > val) {
