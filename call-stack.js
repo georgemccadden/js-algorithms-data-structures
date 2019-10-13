@@ -17,3 +17,12 @@ function cookFood() {
 
     return items[Math.floor(Math.random() * items.length)];
 }
+
+function wakeUp() {
+    takeShower();
+    eatBreakfast();
+
+    console.log("Okay, ready to go to work!");
+}
+
+wakeUp();
