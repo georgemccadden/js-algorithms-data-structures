@@ -16,3 +16,12 @@ function countDown(num) {
 }
 
 countDown(8);
+
+// Example 2 :
+
+function sumRange(num) {
+  if(num === 1) return 1;
+
+  return num + sumRange(num - 1);
+}
+sumRange(3); // 6;
