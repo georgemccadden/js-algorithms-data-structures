@@ -10,9 +10,9 @@
 
 
 function reverse(str) {
-    str.split('').reduce((reversed, character) => {
-        return character + reversed;
-    }, '');
+    return str.split('').reduce((reversed, character) =>
+         character + reversed
+    , '');
 }
 
 module.exports = reverse;
