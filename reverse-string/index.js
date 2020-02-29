@@ -8,7 +8,7 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
-// Algorithm 3
+// Algorithm 3 :
 
 function reverse(str) {
     return str.split('').reduce((reversed, character) =>
