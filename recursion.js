@@ -28,4 +28,11 @@ sumRange(3); // 6;
 
 // * Walkthrough if num = 3 *
 
-// 
+// sumRange(3)
+// cannot return 1 so..
+// return 3 + sumRange(3-1)
+          // cannot return 1 so..
+          // return 2 + sumRange(2-1)
+                      // return 1
+// Adding the remaining numbers = 6!!
+        
