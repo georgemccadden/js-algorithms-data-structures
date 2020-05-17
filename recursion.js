@@ -25,3 +25,7 @@ function sumRange(num) {
   return num + sumRange(num - 1);
 }
 sumRange(3); // 6;
+
+// * Walkthrough if num = 3 *
+
+// 
