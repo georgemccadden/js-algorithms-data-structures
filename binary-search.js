@@ -21,4 +21,7 @@ function logBinarySearch(target, nums) {
         floorIndex = guessIndex;
     }
     }
+    return false;
 }
+
+// Big O : Total time complexity cost is O(log 2 of n)
