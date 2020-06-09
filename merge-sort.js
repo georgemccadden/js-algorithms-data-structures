@@ -27,4 +27,5 @@ function logMergeSort(arrayToSort) {
              currentRightIndex += 1;
          }
      }
+     return sortedArray;
 }
