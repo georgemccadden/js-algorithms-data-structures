@@ -4,4 +4,8 @@ function logMergeSort(arrayToSort) {
          return arrayToSort;
      }
      // Step 1 : Divide the array in half (round down to avoid 'half index')
+     const midIndex = Math.floor(arrayToSort / 2);
+     const left = arrayToSort.slice(0, midIndex);
+     const right = arrayToSort.slice(midIndex);
+     
 }
