@@ -29,3 +29,5 @@ function logMergeSort(arrayToSort) {
      }
      return sortedArray;
 }
+
+// Big O : Time complexity cost is O(n log base 2 of n)
