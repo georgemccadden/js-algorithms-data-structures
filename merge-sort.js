@@ -8,4 +8,7 @@ function logMergeSort(arrayToSort) {
      const left = arrayToSort.slice(0, midIndex);
      const right = arrayToSort.slice(midIndex);
      
+     // Step 2 : Sort each half
+     const sortedLeft = logMergeSort(left);
+     const sortedRight = logMergeSort(right);
 }
