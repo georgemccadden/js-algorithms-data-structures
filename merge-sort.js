@@ -11,4 +11,13 @@ function logMergeSort(arrayToSort) {
      // Step 2 : Sort each half
      const sortedLeft = logMergeSort(left);
      const sortedRight = logMergeSort(right);
+
+     // Step 3 : Merge the sorted halves
+     const sortedArray = [];
+     let currentLeftIndex = 0;
+     let currentRightIndex = 0;
+
+     while (sortedArray.length < left.length + right.length) {
+         
+     }
 }
