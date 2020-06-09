@@ -23,7 +23,8 @@ function logMergeSort(arrayToSort) {
              sortedArray.push(sortedLeft[currentLeftIndex]);
              currentLeftIndex += 1;
          } else {
-             
+             sortedArray.push(sortedRight[currentRightIndex]);
+             currentRightIndex += 1;
          }
      }
 }
