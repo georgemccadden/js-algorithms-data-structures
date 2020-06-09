@@ -1,4 +1,4 @@
-function binarySearch(target, nums) {
+function logBinarySearch(target, nums) {
     // First you want to see if the target appears in nums collection
 
     let floorIndex = -1; // 'floorIndex' and 'ceilingIndex' are the parameters of the collection of nums
