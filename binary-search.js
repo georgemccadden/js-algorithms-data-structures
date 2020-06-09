@@ -8,5 +8,6 @@ function binarySearch(target, nums) {
     // Find the index halfway between your parameters and round down so that you don't get a half index
 
     const distance = ceilingIndex - floorIndex;
+    const halfDistance = Math.floor(distance / 2);
     }
 }
