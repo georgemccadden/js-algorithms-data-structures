@@ -24,4 +24,4 @@ function logBinarySearch(target, nums) {
     return false;
 }
 
-// Big O : Total time complexity cost is O(log 2 of n)
+// Big O : Total time complexity cost is O(log base 2 of n)
