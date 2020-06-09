@@ -9,5 +9,11 @@ function binarySearch(target, nums) {
 
     const distance = ceilingIndex - floorIndex;
     const halfDistance = Math.floor(distance / 2);
+    const guessIndex = floorIndex + halfDistance;
+    const guessValue = nums[guessIndex];
+
+    if (guessValue === target) {
+        return true;
+    }
     }
 }
