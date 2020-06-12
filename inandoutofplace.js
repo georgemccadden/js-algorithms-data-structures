@@ -1,0 +1,3 @@
+function  squareArrayInPlace(intArray) {
+    
+}
