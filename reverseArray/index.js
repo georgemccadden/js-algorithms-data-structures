@@ -13,3 +13,21 @@
 // - Iterate through the array until you reach the middle
 // - Swap the first index with the last and continue inward in the array until end of iteration.
 // - Return the array.
+
+
+// CODE :
+
+function reverseArray(arr) {
+    let temp;
+
+    for (let i = 0; i < arr.length / 2; i++) {
+        temp = arr[i];
+
+        if (!arr && arr.length >= 1 && arr.length <= 1000) {
+            arr[i] = arr[arr.length - 1 - i];
+            arr[arr.length - 1 - i] = temp;
+        }
+    }
+
+    return arr;
+}
