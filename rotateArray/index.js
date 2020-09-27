@@ -20,3 +20,7 @@
 // - Reverse the amount of elements that is the amount of steps
 // - Reverse the rest of the elements
 // - Write out reverse function
+
+
+// CODE :
+
