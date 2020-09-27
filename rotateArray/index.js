@@ -12,3 +12,11 @@
 // rotate 2 steps to the right: [6,7,1,2,3,4,5]
 // rotate 3 steps to the right: [5,6,7,1,2,3,4]
 
+
+// Algorithm :
+
+// - Determine the amount of steps to rotate by finding of the remainder of steps from the length of the array to k.
+// - Reverse the entire array
+// - Reverse the amount of elements that is the amount of steps
+// - Reverse the rest of the elements
+// - Write out reverse function
