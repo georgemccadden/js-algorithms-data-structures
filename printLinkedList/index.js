@@ -17,6 +17,9 @@
 
 // Algorithm :
 
+// - Iterate through the entire linked list while head is not null
+// - Print out the data of the node you are on
+// - Change head to the next node to continue until there are no more
 
 
 // C O D E :
