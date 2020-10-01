@@ -40,3 +40,9 @@ const binarySearch = (nums, target) => {
     }
     return -1;
 }
+
+
+// Time & Space Complexity :
+
+// Time - O(log n)
+// Space - O(1)
