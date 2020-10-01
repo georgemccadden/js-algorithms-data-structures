@@ -19,3 +19,13 @@
 // - If the middle element is less than the target, change the parameters to the element after that middle element to the last element in the array and then repeat that search until it is found.
 // - If the element is not found, return -1.
 
+
+// C O D E :
+
+const binarySearch = (nums, target) => {
+    let middle;
+    let left = 0;
+    let right = nums.length - 1;
+
+    
+}
