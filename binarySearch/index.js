@@ -32,6 +32,11 @@ const binarySearch = (nums, target) => {
 
         if (nums[middle] === target) {
             return middle;
+        } else if (num[middle] < target) {
+            left = middle + 1;
+        } else {
+            right = middle - 1;
         }
     }
+    return -1;
 }
