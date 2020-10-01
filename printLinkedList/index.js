@@ -21,3 +21,9 @@
 
 // C O D E :
 
+const printLinkedList = (head) => {
+    while (head) {
+        console.log(head.data);
+        head = head.next;
+    }
+}
