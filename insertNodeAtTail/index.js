@@ -10,4 +10,12 @@ const insertNodeAtTail = (head, data) => {
         head = new SinglyLinkedListNode(data, null); // If this were part of the SinglyLinkedListNode class
         return head;
     }
+
+    let current = head;
+
+    while (current.next) {
+        current = current.next;
+    }
+
+    current = new SinglyLinkedListNode(data, null); // This is where we'll add the passed in node as the tail
 }
