@@ -6,5 +6,8 @@
 // C O D E :
 
 const insertNodeAtTail = (head, data) => {
-    
+    if (!head) {
+        head = new SinglyLinkedListNode(data, null); // If this were part of the SinglyLinkedListNode class
+        return head;
+    }
 }
