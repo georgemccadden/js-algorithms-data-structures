@@ -5,3 +5,6 @@
 
 // C O D E :
 
+const insertNodeAtTail = (head, data) => {
+    
+}
