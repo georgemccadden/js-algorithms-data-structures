@@ -17,5 +17,6 @@ const insertNodeAtTail = (head, data) => {
         current = current.next;
     }
 
-    current = new SinglyLinkedListNode(data, null); // This is where we'll add the passed in node as the tail
+    current.next = new SinglyLinkedListNode(data, null); // This is where we'll add the passed in node as the tail
+    return head;
 }
