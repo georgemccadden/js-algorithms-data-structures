@@ -18,3 +18,5 @@
 
 // Algorithm :
 
+// - Handle the case of an empty tree (It should be true)
+// - Perform a depth first traversal through the passed in tree
