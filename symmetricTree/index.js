@@ -29,5 +29,6 @@ const isSymmetrical = (root) => {
 
     function depthFirst(nodeA, nodeB) {
         if (!nodeA && !nodeB) return true;
+        if (!nodeA && nodeB) return false;
     }
 }
