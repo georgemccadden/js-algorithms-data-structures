@@ -18,7 +18,8 @@
 // - Keep track of what is in your stack
 // - Keep track of what your minimum will be while creating your stack
 // - Create the push functionality so that it handles if the stack is empty
-// - 
+// - If it is not empty when pushing determine the minimum and push into minimum array and into the stack
+
 
 
 
@@ -33,6 +34,8 @@ MinStack.prototype.push = (element) => {
     if (this.stack.length === 0) {
         this.stack.push(element);
     } else {
-        let minimum = Math.min(element, this.min[this.min.length - 1])
+        let minimum = Math.min(element, this.min[this.min.length - 1]);
+        this.min.push(minimum);
     }
+    this.stack.push(element);
 }
