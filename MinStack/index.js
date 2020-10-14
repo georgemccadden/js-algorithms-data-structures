@@ -21,6 +21,7 @@
 // - If it is not empty when pushing determine the minimum and push into minimum array and into the stack
 // - Create the 'pop' functionality so that it removes the top element from the stack and the top element from the minimum array
 // - Create the 'top' functionality so that it returns the the latest element in the stack
+// - Create the 'getMin' functionality so that it returns the latest element in the min array
 
 
 
@@ -49,4 +50,8 @@ MinStack.prototype.pop = () => {
 
 MinStack.prototype.top = () => {
     return this.stack[this.stack.length - 1];
+}
+
+MinStack.prototype.getMin = () => {
+    return this.min[this.min.length - 1];
 }
