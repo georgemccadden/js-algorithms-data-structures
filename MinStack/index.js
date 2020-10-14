@@ -19,6 +19,7 @@
 // - Keep track of what your minimum will be while creating your stack
 // - Create the push functionality so that it handles if the stack is empty
 // - If it is not empty when pushing determine the minimum and push into minimum array and into the stack
+// - Create the pop functionality so that it removes the top element from the stack and the top element from the minimum array
 
 
 
@@ -38,4 +39,9 @@ MinStack.prototype.push = (element) => {
         this.min.push(minimum);
     }
     this.stack.push(element);
+}
+
+MinStack.prototype.pop = () => {
+    this.stack.pop();
+    this.min.pop();
 }
