@@ -15,6 +15,14 @@
 
 // Algorithm :
 
+// - Keep track of what is in your stack
+// - Keep track of what your minimum will be while creating your stack
+
+
 
 // C O D E :
 
+const MinStack = () => {
+    this.stack = [],
+    this.min = [],
+}
